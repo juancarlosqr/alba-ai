@@ -9,7 +9,6 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import clsx from 'clsx'
-import { Hero } from '@/components/sections/Hero'
 
 const navigation = {
   categories: [
@@ -548,9 +547,6 @@ export function Header() {
             </div>
           </div>
         </nav>
-
-        {/* Hero section */}
-        <Hero />
       </header>
     </>
   )
