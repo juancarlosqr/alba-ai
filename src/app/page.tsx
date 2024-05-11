@@ -1,19 +1,3 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
-*/
-
 'use client'
 
 import { Fragment, useState } from 'react'
@@ -267,7 +251,7 @@ export default function Example() {
                           className={({ selected }) =>
                             clsx(
                               selected
-                                ? 'border-indigo-600 text-indigo-600'
+                                ? 'border-olive-600 text-olive-600'
                                 : 'border-transparent text-gray-900',
                               'flex-1 whitespace-nowrap border-b-2 px-1 py-4 text-base font-medium'
                             )
@@ -419,7 +403,7 @@ export default function Example() {
                   <span className="sr-only">Your Company</span>
                   <img
                     className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                    src="https://tailwindui.com/img/logos/mark.svg?color=olive&shade=600"
                     alt=""
                   />
                 </a>
@@ -436,7 +420,7 @@ export default function Example() {
                             <Popover.Button
                               className={clsx(
                                 open
-                                  ? 'border-indigo-600 text-indigo-600'
+                                  ? 'border-olive-600 text-olive-600'
                                   : 'border-transparent text-gray-700 hover:text-gray-800',
                                 'relative z-10 -mb-px flex items-center border-b-2 pt-px text-sm font-medium transition-colors duration-200 ease-out'
                               )}
@@ -704,7 +688,7 @@ export default function Example() {
 
                 <a
                   href="#"
-                  className="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700"
+                  className="bg-olive-600 hover:bg-olive-700 inline-block rounded-md border border-transparent px-8 py-3 text-center font-medium text-white"
                 >
                   Shop Collection
                 </a>
@@ -727,7 +711,7 @@ export default function Example() {
               </h2>
               <a
                 href="#"
-                className="hidden text-sm font-semibold text-indigo-600 hover:text-indigo-500 sm:block"
+                className="text-olive-600 hover:text-olive-500 hidden text-sm font-semibold sm:block"
               >
                 Browse all categories
                 <span aria-hidden="true"> &rarr;</span>
@@ -812,7 +796,7 @@ export default function Example() {
             <div className="mt-6 sm:hidden">
               <a
                 href="#"
-                className="block text-sm font-semibold text-indigo-600 hover:text-indigo-500"
+                className="text-olive-600 hover:text-olive-500 block text-sm font-semibold"
               >
                 Browse all categories
                 <span aria-hidden="true"> &rarr;</span>
@@ -870,7 +854,7 @@ export default function Example() {
               </h2>
               <a
                 href="#"
-                className="hidden text-sm font-semibold text-indigo-600 hover:text-indigo-500 sm:block"
+                className="text-olive-600 hover:text-olive-500 hidden text-sm font-semibold sm:block"
               >
                 Browse all favorites
                 <span aria-hidden="true"> &rarr;</span>
@@ -901,7 +885,7 @@ export default function Example() {
             <div className="mt-6 sm:hidden">
               <a
                 href="#"
-                className="block text-sm font-semibold text-indigo-600 hover:text-indigo-500"
+                className="text-olive-600 hover:text-olive-500 block text-sm font-semibold"
               >
                 Browse all favorites
                 <span aria-hidden="true"> &rarr;</span>
@@ -913,7 +897,7 @@ export default function Example() {
         {/* CTA section */}
         <section aria-labelledby="sale-heading">
           <div className="overflow-hidden pt-32 sm:pt-14">
-            <div className="bg-gray-800">
+            <div className="bg-olive-800">
               <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="relative pb-16 pt-48 sm:pb-24">
                   <div>
@@ -1083,12 +1067,12 @@ export default function Example() {
                   type="text"
                   autoComplete="email"
                   required
-                  className="w-full min-w-0 appearance-none rounded-md border border-gray-300 bg-white px-4 py-2 text-base text-indigo-500 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500"
+                  className="text-olive-500 focus:border-olive-500 focus:ring-olive-500 w-full min-w-0 appearance-none rounded-md border border-gray-300 bg-white px-4 py-2 text-base placeholder-gray-500 shadow-sm focus:outline-none focus:ring-1"
                 />
                 <div className="ml-4 flex-shrink-0">
                   <button
                     type="submit"
-                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                    className="bg-olive-600 hover:bg-olive-700 focus:ring-olive-500 flex w-full items-center justify-center rounded-md border border-transparent px-4 py-2 text-base font-medium text-white shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2"
                   >
                     Sign up
                   </button>
