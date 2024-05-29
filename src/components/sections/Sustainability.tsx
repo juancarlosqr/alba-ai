@@ -4,7 +4,7 @@ export function Sustainability() {
       <div className="relative bg-gray-800 px-6 py-32 sm:px-12 sm:py-40 lg:px-16">
         <div className="absolute inset-0 overflow-hidden">
           <img
-            src="https://tailwindui.com/img/ecommerce-images/home-page-03-feature-section-full-width.jpg"
+            src="https://images.unsplash.com/photo-1501117716987-c8c394bb29df?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
             className="h-full w-full object-cover object-center"
           />
@@ -22,9 +22,9 @@ export function Sustainability() {
           </h2>
           <p className="mt-3 text-xl text-white">
             We're committed to responsible, sustainable, and ethical
-            manufacturing. Our small-scale approach allows us to focus on
-            quality and reduce our impact. We're doing our best to delay the
-            inevitable heat-death of the universe.
+            hospitality. Our small-scale approach allows us to focus on quality
+            and reduce our impact. We're doing our best to delay the inevitable
+            heat-death of the universe.
           </p>
           <a
             href="#"

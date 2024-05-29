@@ -16,16 +16,16 @@ export default function Home() {
         <Hero />
 
         {/* Rooms section */}
-        <Rooms />
+        {/* <Rooms /> */}
 
         {/* Sustainability section */}
         <Sustainability />
 
         {/* Services section */}
-        <Services />
+        {/* <Services /> */}
 
         {/* CTA section */}
-        <CallToAction />
+        {/* <CallToAction /> */}
       </main>
 
       <Footer />
