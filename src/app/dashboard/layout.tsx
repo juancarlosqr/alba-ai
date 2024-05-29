@@ -1,4 +1,5 @@
 import { Nav } from '@/components/sections/Nav'
+import { Snippet } from '@/components/sections/Snippet'
 import { generateVoiceflowScriptSnippet } from '@/lib/voiceflow'
 
 export default async function DashboardLayout({
@@ -28,7 +29,8 @@ export default async function DashboardLayout({
           </main>
         </div>
       </div>
-      {scriptSnippet && <div dangerouslySetInnerHTML={scriptSnippet} />}
+
+      <Snippet id="voiceflow-widget" scriptSnippet={scriptSnippet} />
     </>
   )
 }

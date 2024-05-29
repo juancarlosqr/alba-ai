@@ -11,27 +11,25 @@ export async function generateVoiceflowScriptSnippet() {
   if (process.env.NODE_ENV !== 'production' && !userID && vfUserID) {
     userID = vfUserID
 
-    console.log({ userID })
+    console.log('DEBUG', { userID })
   }
 
   if (!vfProjectID || !vfVersionID || !userID) {
     return
   }
 
-  return {
-    __html: `<script type="text/javascript">
-          (function(d, t) {
-              var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
-              v.onload = function() {
-                window.voiceflow.chat.load({
-                  verify: { projectID: '${vfProjectID}' },
-                  url: 'https://general-runtime.voiceflow.com',
-                  versionID: '${vfVersionID}',
-                  userID: '${userID}',
-                });
-              }
-              v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
-          })(document, 'script');
-        </script>`,
-  }
+  return `
+    (function(d, t) {
+        var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        v.onload = function() {
+          window.voiceflow.chat.load({
+            verify: { projectID: '${vfProjectID}' },
+            url: 'https://general-runtime.voiceflow.com',
+            versionID: '${vfVersionID}',
+            userID: '${userID}',
+          });
+        }
+        v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+    })(document, 'script');
+  `
 }

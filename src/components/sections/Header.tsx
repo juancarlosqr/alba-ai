@@ -39,7 +39,7 @@ export function Header() {
         </div>
         <div className="flex flex-1 items-center justify-end gap-x-6">
           <Link
-            href="/dashboard"
+            href="/login"
             className="rounded-md border border-olive-600 bg-transparent px-3 py-1.5 text-sm font-medium text-olive-600 shadow-sm hover:bg-olive-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-olive-600"
           >
             Log in
@@ -74,7 +74,7 @@ export function Header() {
               />
             </Link>
             <Link
-              href="/dashboard"
+              href="/login"
               className="ml-auto rounded-md border border-olive-600 bg-transparent px-3 py-1.5 text-sm font-medium text-olive-600 shadow-sm hover:bg-olive-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-olive-600"
             >
               Log in
