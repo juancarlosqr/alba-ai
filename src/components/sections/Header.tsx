@@ -6,9 +6,9 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Rooms', href: '/rooms' },
-  { name: 'Services', href: '/services' },
-  { name: 'About', href: '/about' },
+  { name: 'Rooms', href: '/#' },
+  { name: 'Services', href: '/#' },
+  { name: 'About', href: '/#' },
 ]
 
 export function Header() {
@@ -31,7 +31,7 @@ export function Header() {
             <Link
               key={item.name}
               href={item.href}
-              className="text-olive-900 hover:text-olive-700 text-sm font-medium leading-6"
+              className="text-sm font-medium leading-6 text-olive-900 hover:text-olive-700"
             >
               {item.name}
             </Link>
@@ -39,8 +39,8 @@ export function Header() {
         </div>
         <div className="flex flex-1 items-center justify-end gap-x-6">
           <Link
-            href="/auth/login"
-            className="hover:bg-olive-50 focus-visible:outline-olive-600 text-olive-600 border-olive-600 rounded-md border bg-transparent px-3 py-1.5 text-sm font-medium shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+            href="/dashboard"
+            className="rounded-md border border-olive-600 bg-transparent px-3 py-1.5 text-sm font-medium text-olive-600 shadow-sm hover:bg-olive-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-olive-600"
           >
             Log in
           </Link>
@@ -74,8 +74,8 @@ export function Header() {
               />
             </Link>
             <Link
-              href="/auth/login"
-              className="hover:bg-olive-50 focus-visible:outline-olive-600 text-olive-600 border-olive-600 ml-auto rounded-md border bg-transparent px-3 py-1.5 text-sm font-medium shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+              href="/dashboard"
+              className="ml-auto rounded-md border border-olive-600 bg-transparent px-3 py-1.5 text-sm font-medium text-olive-600 shadow-sm hover:bg-olive-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-olive-600"
             >
               Log in
             </Link>
@@ -95,7 +95,7 @@ export function Header() {
                   <Link
                     key={item.name}
                     href={item.href}
-                    className="text-olive-900 hover:bg-olive-50 -mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7"
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-olive-900 hover:bg-olive-50"
                   >
                     {item.name}
                   </Link>
