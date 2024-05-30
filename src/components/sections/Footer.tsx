@@ -116,7 +116,7 @@ export function Footer() {
               Copyright &copy; 2024 Alba Hotel
             </p>
             <p className="text-sm text-gray-500">
-              <Link href="/credits">Photo Credits</Link>
+              <Link href="/credits">Photos Credit</Link>
             </p>
           </div>
         </div>
