@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 const footerNavigation = {
   shop: [
     { name: 'Who we are', href: '#' },
@@ -109,9 +111,14 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-200 py-10">
-          <p className="text-sm text-gray-500">
-            Copyright &copy; 2024 Alba Hotel
-          </p>
+          <div className="flex justify-between">
+            <p className="text-sm text-gray-500">
+              Copyright &copy; 2024 Alba Hotel
+            </p>
+            <p className="text-sm text-gray-500">
+              <Link href="/credits">Photo Credits</Link>
+            </p>
+          </div>
         </div>
       </div>
     </footer>
