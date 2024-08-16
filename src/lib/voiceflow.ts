@@ -27,6 +27,11 @@ export async function generateVoiceflowScriptSnippet() {
             url: 'https://general-runtime.voiceflow.com',
             versionID: '${vfVersionID}',
             userID: '${userID}',
+            render: {
+              mode: 'embedded',
+              target: document.getElementById('chatbot'),
+            },
+            autostart: false,
           });
         }
         v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
