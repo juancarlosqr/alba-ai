@@ -1,84 +1,41 @@
 export function CallToAction() {
   return (
-    <section aria-labelledby="sale-heading">
-      <div className="overflow-hidden pt-32 sm:pt-14">
-        <div className="bg-olive-800">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="relative pb-16 pt-48 sm:pb-24">
-              <div>
-                <h2
-                  id="sale-heading"
-                  className="text-4xl font-bold tracking-tight text-white md:text-5xl"
-                >
-                  Final Stock.
-                  <br />
-                  Up to 50% off.
-                </h2>
-                <div className="mt-6 text-base">
-                  <a href="#" className="font-semibold text-white">
-                    Shop the sale
-                    <span aria-hidden="true"> &rarr;</span>
-                  </a>
-                </div>
-              </div>
-
-              <div className="absolute -top-32 left-1/2 -translate-x-1/2 transform sm:top-6 sm:translate-x-0">
-                <div className="ml-24 flex min-w-max space-x-6 sm:ml-3 lg:space-x-8">
-                  <div className="flex space-x-6 sm:flex-col sm:space-x-0 sm:space-y-6 lg:space-y-8">
-                    <div className="flex-shrink-0">
-                      <img
-                        className="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-01.jpg"
-                        alt=""
-                      />
-                    </div>
-
-                    <div className="mt-6 flex-shrink-0 sm:mt-0">
-                      <img
-                        className="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-02.jpg"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div className="flex space-x-6 sm:-mt-20 sm:flex-col sm:space-x-0 sm:space-y-6 lg:space-y-8">
-                    <div className="flex-shrink-0">
-                      <img
-                        className="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-favorite-01.jpg"
-                        alt=""
-                      />
-                    </div>
-
-                    <div className="mt-6 flex-shrink-0 sm:mt-0">
-                      <img
-                        className="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-favorite-02.jpg"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div className="flex space-x-6 sm:flex-col sm:space-x-0 sm:space-y-6 lg:space-y-8">
-                    <div className="flex-shrink-0">
-                      <img
-                        className="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-01.jpg"
-                        alt=""
-                      />
-                    </div>
-
-                    <div className="mt-6 flex-shrink-0 sm:mt-0">
-                      <img
-                        className="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-02.jpg"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+    <section aria-labelledby="cause-heading">
+      <div className="relative bg-gray-800 px-6 py-32 sm:px-12 sm:py-40 lg:px-16">
+        <div className="absolute inset-0 overflow-hidden">
+          <img
+            src="https://images.unsplash.com/photo-1501117716987-c8c394bb29df?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+            className="h-full w-full object-cover object-center"
+          />
+        </div>
+        <div
+          aria-hidden="true"
+          className="absolute inset-0 bg-gray-900 bg-opacity-50"
+        />
+        <div className="relative mx-auto flex max-w-3xl flex-col items-center text-center">
+          <h2
+            id="cause-heading"
+            className="text-3xl font-medium tracking-tight text-white sm:text-4xl"
+          >
+            Enhance Your Guests Experience
+          </h2>
+          <p className="mt-3 text-xl text-white">
+            Personalization is key in the hospitality industry. Guests are
+            looking to have unique and exclusive experiences, tailored to their
+            wants and needs.
+            <br />
+            Our AI-Powered Concierge Bot can help you deliver this experience
+            24/7.
+          </p>
+          <a
+            href="https://cal.com/moonside/alba"
+            className="mt-8 block w-full rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-gray-900 hover:bg-gray-100 sm:w-auto"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Get In Touch
+          </a>
         </div>
       </div>
     </section>
