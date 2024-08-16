@@ -28,7 +28,7 @@ export function Header() {
               className="h-12 w-auto"
               src="/logomark.png"
               alt="alba ai assistant for hotels"
-              width={350}
+              width={325}
               height={90}
             />
           </Link>
