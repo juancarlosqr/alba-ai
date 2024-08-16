@@ -2,13 +2,14 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Rooms', href: '/#' },
-  { name: 'Services', href: '/#' },
+  { name: 'Features', href: '/#' },
   { name: 'About', href: '/#' },
+  { name: 'Services', href: '/#' },
 ]
 
 export function Header() {
@@ -22,12 +23,18 @@ export function Header() {
       >
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
-            <span className="sr-only">Alba Hotel</span>
-            <img className="h-12 w-auto" src="/logomark.png" alt="alba hotel" />
+            <span className="sr-only">Alba AI</span>
+            <Image
+              className="h-12 w-auto"
+              src="/logomark.png"
+              alt="alba ai assistant for hotels"
+              width={350}
+              height={90}
+            />
           </Link>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
-          {navigation.map((item) => (
+          {/* {navigation.map((item) => (
             <Link
               key={item.name}
               href={item.href}
@@ -35,14 +42,14 @@ export function Header() {
             >
               {item.name}
             </Link>
-          ))}
+          ))} */}
         </div>
         <div className="flex flex-1 items-center justify-end gap-x-6">
           <Link
             href="/login"
             className="rounded-md border border-olive-600 bg-transparent px-3 py-1.5 text-sm font-medium text-olive-600 shadow-sm hover:bg-olive-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-olive-600"
           >
-            Log in
+            Try Alba
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -66,7 +73,7 @@ export function Header() {
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center gap-x-6">
             <Link href="/" className="-m-1.5 p-1.5">
-              <span className="sr-only">Alba Hotel</span>
+              <span className="sr-only">Alba AI</span>
               <img
                 className="h-12 w-auto"
                 src="/logomark.png"
@@ -77,7 +84,7 @@ export function Header() {
               href="/login"
               className="ml-auto rounded-md border border-olive-600 bg-transparent px-3 py-1.5 text-sm font-medium text-olive-600 shadow-sm hover:bg-olive-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-olive-600"
             >
-              Log in
+              Try Alba
             </Link>
             <button
               type="button"
