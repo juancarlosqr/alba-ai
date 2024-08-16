@@ -1,23 +1,40 @@
 import Link from 'next/link'
 
 const footerNavigation = {
-  shop: [
-    { name: 'Who we are', href: '#' },
-    { name: 'Rooms', href: '#' },
-    { name: 'Services', href: '#' },
-    { name: 'Sustainability', href: '#' },
-  ],
-  company: [
-    { name: 'Press', href: '#' },
-    { name: 'Careers', href: '#' },
-    { name: 'Terms & Conditions', href: '#' },
-    { name: 'Privacy', href: '#' },
-  ],
+  // shop: [
+  //   { name: 'Who we are', href: '#' },
+  //   { name: 'Rooms', href: '#' },
+  //   { name: 'Services', href: '#' },
+  //   { name: 'Sustainability', href: '#' },
+  // ],
+  // company: [
+  //   { name: 'Press', href: '#' },
+  //   { name: 'Careers', href: '#' },
+  //   { name: 'Terms & Conditions', href: '#' },
+  //   { name: 'Privacy', href: '#' },
+  // ],
   connect: [
-    { name: 'Contact Us', href: '#' },
-    { name: 'Instagram', href: '#' },
-    { name: 'Facebook', href: '#' },
-    { name: 'Pinterest', href: '#' },
+    { name: 'Our Website', href: 'https://moonside.ai', follow: 'follow' },
+    {
+      name: 'Contact Us',
+      href: 'https://cal.com/moonside/alba',
+      follow: 'nofollow',
+    },
+    {
+      name: 'YouTube',
+      href: 'https://youtube.com/@juancarlosqr',
+      follow: 'nofollow',
+    },
+    {
+      name: 'Instagram',
+      href: 'https://instagram.com/moonside.ai',
+      follow: 'nofollow',
+    },
+    {
+      name: 'LinkedIn',
+      href: 'https://linkedin.com/in/juancarlosqr',
+      follow: 'nofollow',
+    },
   ],
 }
 
@@ -30,7 +47,7 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="py-20 xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="grid grid-cols-2 gap-8 xl:col-span-2">
-            <div className="space-y-16 md:grid md:grid-cols-2 md:gap-8 md:space-y-0">
+            {/* <div className="space-y-16 md:grid md:grid-cols-2 md:gap-8 md:space-y-0">
               <div>
                 <h3 className="text-sm font-medium text-gray-900">Our Offer</h3>
                 <ul role="list" className="mt-6 space-y-6">
@@ -61,7 +78,7 @@ export function Footer() {
                   ))}
                 </ul>
               </div>
-            </div>
+            </div> */}
             <div className="space-y-16 md:grid md:grid-cols-2 md:gap-8 md:space-y-0">
               <div>
                 <h3 className="text-sm font-medium text-gray-900">Connect</h3>
@@ -71,6 +88,8 @@ export function Footer() {
                       <a
                         href={item.href}
                         className="text-gray-500 hover:text-gray-600"
+                        rel={`noopener noreferrer ${item.follow}`}
+                        target="_blank"
                       >
                         {item.name}
                       </a>
@@ -81,7 +100,7 @@ export function Footer() {
             </div>
           </div>
           <div className="mt-16 md:mt-16 xl:mt-0">
-            <h3 className="text-sm font-medium text-gray-900">
+            {/* <h3 className="text-sm font-medium text-gray-900">
               Sign up for our newsletter
             </h3>
             <p className="mt-6 text-sm text-gray-500">
@@ -106,14 +125,14 @@ export function Footer() {
                   Sign up
                 </button>
               </div>
-            </form>
+            </form> */}
           </div>
         </div>
 
         <div className="border-t border-gray-200 py-10">
           <div className="flex justify-between">
             <p className="text-sm text-gray-500">
-              Copyright &copy; 2024 Alba Hotel
+              Copyright &copy; {new Date().getFullYear()} Moonside AI
             </p>
             <p className="text-sm text-gray-500">
               <Link href="/credits">Photos Credit</Link>

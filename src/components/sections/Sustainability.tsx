@@ -18,19 +18,23 @@ export function Sustainability() {
             id="cause-heading"
             className="text-3xl font-bold tracking-tight text-white sm:text-4xl"
           >
-            Long-term thinking
+            Enhance Your Guests Experience
           </h2>
           <p className="mt-3 text-xl text-white">
-            We're committed to responsible, sustainable, and ethical
-            hospitality. Our small-scale approach allows us to focus on quality
-            and reduce our impact. We're doing our best to delay the inevitable
-            heat-death of the universe.
+            Personalization is key in the hospitality industry. Guests are
+            looking to have unique and exclusive experiences, tailored to their
+            wants and needs.
+            <br />
+            Our AI-Powered Concierge Bot can help you deliver this experience
+            24/7.
           </p>
           <a
-            href="#"
+            href="https://cal.com/moonside/alba"
             className="mt-8 block w-full rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-gray-900 hover:bg-gray-100 sm:w-auto"
+            rel="noopener noreferrer"
+            target="_blank"
           >
-            Read our story
+            Get In Touch
           </a>
         </div>
       </div>

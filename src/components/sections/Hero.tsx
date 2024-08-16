@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export function Hero() {
   return (
     <div className="relative overflow-hidden">
@@ -5,11 +7,11 @@ export function Hero() {
         <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
           <div className="sm:max-w-lg">
             <h1 className="text-4xl font-light tracking-tight text-gray-900 sm:text-5xl">
-              Luxury Experiences on the French Riviera
+              AI-Powered Concierge Bot for Boutique Hotels
             </h1>
             <p className="mt-4 text-xl text-gray-500">
-              We are Alba Hotel, a boutique resort and spa in the French Riviera
-              offering luxury experiences for guests from all around the world.
+              Alba AI is an automation companion for boutique hotels, resorts
+              and spas looking to enhance their guests experience
             </p>
           </div>
           <div>
@@ -80,12 +82,22 @@ export function Hero() {
                 </div>
               </div>
 
-              <a
-                href="#"
-                className="inline-block rounded-md border border-transparent bg-olive-600 px-8 py-3 text-center font-medium text-white hover:bg-olive-700"
-              >
-                Book a room
-              </a>
+              <div className="flex space-x-2">
+                <Link
+                  href="/login"
+                  className="inline-block rounded-md border border-transparent bg-olive-600 px-8 py-3 text-center font-medium text-white hover:bg-olive-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-olive-600"
+                >
+                  Try Alba
+                </Link>
+                <a
+                  className="inline-block rounded-md border border-olive-600 bg-transparent px-8 py-3 text-center font-medium text-olive-600 shadow-sm hover:bg-olive-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-olive-600"
+                  href="https://cal.com/moonside/alba"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Get Alba
+                </a>
+              </div>
             </div>
           </div>
         </div>
