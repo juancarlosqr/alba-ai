@@ -11,7 +11,7 @@ export async function GET(request: NextRequest) {
   let redirectTo
 
   const searchParams = request.nextUrl.searchParams
-  const reference = searchParams.get('reference')
+  const reference = searchParams.get('ref')
   const url = `https://maps.googleapis.com/maps/api/place/details/json?place_id=${reference}&key=${googleApiKey}`
   const options = { method: 'GET' }
 
