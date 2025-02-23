@@ -1,0 +1,428 @@
+{
+  "html_attributions": [],
+  "results": [
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.26507650000001,
+          "lng": 6.6250648
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.26644842989273,
+            "lng": 6.626381579892723
+          },
+          "southwest": {
+            "lat": 43.26374877010728,
+            "lng": 6.623681920107279
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Kyoto Sushi & Thai",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/106696947086796534418\">Dr. Bernd Uhlenhut</a>"
+          ],
+          "photo_reference": "AVzFdbkJ5WlnpQBYx7h_q9wFoN3rLCC9zKNS3GX-GxZt-WPnw5ppZaPnZpb8GjaWomZZ3vvXwMF4QU2D2dHZTipP2iiP2L9tA2EW5KBho_EJkIxkQn5y4aeaC9LeVZerhghVCB08b9VTpzGndyS2t2xZN_6iRZbgC_7apLfw6B06-IqKA0iMuInME4sn",
+          "width": 3024
+        }
+      ],
+      "place_id": "ChIJZTaQ3AjHzhIRJbgJHWUf4eA",
+      "plus_code": {
+        "compound_code": "7J8G+22 Saint-Tropez",
+        "global_code": "8FM87J8G+22"
+      },
+      "rating": 4.1,
+      "reference": "ChIJZTaQ3AjHzhIRJbgJHWUf4eA",
+      "scope": "GOOGLE",
+      "types": [
+        "meal_delivery",
+        "meal_takeaway",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 302,
+      "vicinity": "Quartier de la bouillabaisse, Saint-Tropez"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.2710908,
+          "lng": 6.636828700000001
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.27237537989271,
+            "lng": 6.638070229892723
+          },
+          "southwest": {
+            "lat": 43.26967572010727,
+            "lng": 6.635370570107278
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Hatsuke Saint Tropez",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107007351370478802059\">A Google User</a>"
+          ],
+          "photo_reference": "AVzFdbleQmbD_1VtLygIkMC4voy4Eo_ajukxSQW3OdMRkkSjIWtI4mZQPI9BvfmOBcLR51qsOoaZCAAzbOcYI1JXqV5Uy8rw4Jr1bOYUMQh-ZNETiddDg9UXqj_6ivY69ocF1_Z5ZkgxL4hI1NohTVl6F1LAxkpq511zXNg2pJDMYHLcQhN1S3ap5wK0",
+          "width": 3024
+        }
+      ],
+      "place_id": "ChIJjzL46-_HzhIRnY3uQRCOl8U",
+      "plus_code": {
+        "compound_code": "7JCP+CP Saint-Tropez",
+        "global_code": "8FM87JCP+CP"
+      },
+      "rating": 4.5,
+      "reference": "ChIJjzL46-_HzhIRnY3uQRCOl8U",
+      "scope": "GOOGLE",
+      "types": [
+        "meal_delivery",
+        "meal_takeaway",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 122,
+      "vicinity": "3 Pl. Alphonse Celli, Saint-Tropez"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.2650179,
+          "lng": 6.6251185
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.26638247989272,
+            "lng": 6.626409329892722
+          },
+          "southwest": {
+            "lat": 43.26368282010728,
+            "lng": 6.623709670107278
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Kaja poke & juice",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107366092035865779364\">Eva Bonhomme</a>"
+          ],
+          "photo_reference": "AVzFdbmzkbMGRVCYiiUb2cD1Ff4uA-oJJQUjeSdNjyYz2pwwAanqlSph-0LIPlkDoXKE1sEvQ6v3Kzy_qjtQah7oopPMm-E371hSCe6dsE2_Ytdu5DQBOxrzdMu7Xgoq9cOhMjDL2OCmROYKMP-xhanQU5RTjuJhArYfOD9a6IZ88HaoQSYc2pQBFXTq",
+          "width": 3024
+        }
+      ],
+      "place_id": "ChIJNckdNcPHzhIRAa0hk5JBARk",
+      "plus_code": {
+        "compound_code": "7J8G+22 Saint-Tropez",
+        "global_code": "8FM87J8G+22"
+      },
+      "rating": 4.2,
+      "reference": "ChIJNckdNcPHzhIRAa0hk5JBARk",
+      "scope": "GOOGLE",
+      "types": [
+        "meal_delivery",
+        "meal_takeaway",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 74,
+      "vicinity": "Quartier de la bouillabaisse, Saint-Tropez"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.2665813,
+          "lng": 6.6254129
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.26769587989272,
+            "lng": 6.627114079892722
+          },
+          "southwest": {
+            "lat": 43.26499622010727,
+            "lng": 6.624414420107279
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Pearl Beach Saint-Tropez",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3072,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109898117399548181230\">Steven Ghouti</a>"
+          ],
+          "photo_reference": "AVzFdblq-D9h6hiCV2udC7Hs-4TXq1L89Ddv2t0MfpyghbYrI0POpceUIoaR-_vvDxB121zlJabboe4iAy9ZnjbKi5LY_USBUdEDrS8Dige9qo-_BNevmk9klfLmsYsdPdcOrdghbjXxbAayUSwocOZDtQHTENsPRxPGoncivvHMFxj79JepfpVJin5T",
+          "width": 4080
+        }
+      ],
+      "place_id": "ChIJywms5gjHzhIRMpK5ABBNuNE",
+      "plus_code": {
+        "compound_code": "7J8G+J5 Saint-Tropez",
+        "global_code": "8FM87J8G+J5"
+      },
+      "rating": 4.5,
+      "reference": "ChIJywms5gjHzhIRMpK5ABBNuNE",
+      "scope": "GOOGLE",
+      "types": [
+        "restaurant",
+        "bar",
+        "night_club",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1017,
+      "vicinity": "Quartier de la Bouillabaisse, Saint-Tropez"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.271178,
+          "lng": 6.6368376
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.27256072989272,
+            "lng": 6.638168529892722
+          },
+          "southwest": {
+            "lat": 43.26986107010727,
+            "lng": 6.635468870107278
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Ciao Rino",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/100680508323505420937\">A Google User</a>"
+          ],
+          "photo_reference": "AVzFdbl8NS8woDXChRx3tDrNeXElyuMQKWSn6RF_WuBHMptNgz6yTfb-VVoYkNsHo1F4kyorn0sy-sqfHASJZT_lZ3wKrrUnBgRKUcgiBpT596YfqCZHEIl5QyExUoCsXaCdSUQ_Z0UlBWtPQzvuDw7Fo7yAAMyL9A2fzq-I522kviAZEH5-ETWj4ovb",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJt7g7ZxPHzhIRGvsAMuJbLWw",
+      "plus_code": {
+        "compound_code": "7JCP+FP Saint-Tropez",
+        "global_code": "8FM87JCP+FP"
+      },
+      "rating": 3.1,
+      "reference": "ChIJt7g7ZxPHzhIRGvsAMuJbLWw",
+      "scope": "GOOGLE",
+      "types": ["restaurant", "food", "point_of_interest", "establishment"],
+      "user_ratings_total": 424,
+      "vicinity": "1 Pl. Alphonse Celli, Saint-Tropez"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.2669598,
+          "lng": 6.6292997
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.26832182989271,
+            "lng": 6.630661729892722
+          },
+          "southwest": {
+            "lat": 43.26562217010726,
+            "lng": 6.627962070107278
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+      "icon_background_color": "#909CE1",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+      "name": "PASTIS HOTEL SAINT TROPEZ",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101381301242355771351\">Hotel Pastis</a>"
+          ],
+          "photo_reference": "AVzFdbngvlGz9QIhQom4VWXK7yCy79yZkTPAW8CkCjtH58WBUMuUEv2UzklR3_xxgqyBIOlJCcugsjGjdFkF14JuCPkZwy0SSKAyQnHchqA7ATUDHuSG0XNOuXJWZJbnEXUrHhytKAHgxCPGkus3TchDLqkezmNHCSYInxOFzHKHMr9oC8gBZVnnsgnG",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJ0Tg3GxLHzhIRWDFRCLxS0HU",
+      "plus_code": {
+        "compound_code": "7J8H+QP Saint-Tropez",
+        "global_code": "8FM87J8H+QP"
+      },
+      "rating": 4.7,
+      "reference": "ChIJ0Tg3GxLHzhIRWDFRCLxS0HU",
+      "scope": "GOOGLE",
+      "types": [
+        "lodging",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 67,
+      "vicinity": "75 Av. Général Leclerc, Saint-Tropez"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.2648965,
+          "lng": 6.625064
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.26632442989272,
+            "lng": 6.626340479892722
+          },
+          "southwest": {
+            "lat": 43.26362477010728,
+            "lng": 6.623640820107278
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Papy Burger",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3265,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103747353171486656461\">Sté Adexo</a>"
+          ],
+          "photo_reference": "AVzFdbm9snkSzOQEqzQlpc2twc5ssvTUkg96X-dnDuJkNWGdDJXnkeMmZ6y_ZSkQtjDVcYTXLcdkxRSbXthdVrSv1QhyBGA0My8INVYzeflvurjSMT338r56TMblgmn93P8tECTUbRuDVsInXG65lt2lAgdBzTTvc7W4bFT2zW_Fc_O2YcK0J4MAWuwk",
+          "width": 4898
+        }
+      ],
+      "place_id": "ChIJTVVVVcHAzhIRGIzWd7G5izY",
+      "plus_code": {
+        "compound_code": "7J7G+X2 Saint-Tropez",
+        "global_code": "8FM87J7G+X2"
+      },
+      "price_level": 2,
+      "rating": 4.5,
+      "reference": "ChIJTVVVVcHAzhIRGIzWd7G5izY",
+      "scope": "GOOGLE",
+      "types": ["restaurant", "food", "point_of_interest", "establishment"],
+      "user_ratings_total": 1123,
+      "vicinity": "Quartier de la bouillabaisse, 101 Av. Général Leclerc, Saint-Tropez"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.2686242,
+          "lng": 6.6336267
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 43.27002427989273,
+            "lng": 6.634864479892721
+          },
+          "southwest": {
+            "lat": 43.26732462010729,
+            "lng": 6.632164820107278
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+      "name": "Utile Supermarket",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 768,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107870231468597451300\">A Google User</a>"
+          ],
+          "photo_reference": "AVzFdbmkCcuZjj7atuTUoYvyfKGDifANZGuPWK5XpHbHF2r4aWM1N0cLhWHJblVbq8hZQalIzH2A9t-jHwnpbhfMPH-ehRC8kk3QdaGn72MAhSuezJFDR-T-mTK7zVr75jsz5Crwbn19HtGOSdygpaCPuJr1M5iQv7ccSLGDWJLONporHPIFx9SaFxxS",
+          "width": 1024
+        }
+      ],
+      "place_id": "ChIJfX9aFxLHzhIRrw5dhL2BoSQ",
+      "plus_code": {
+        "compound_code": "7J9M+CF Saint-Tropez",
+        "global_code": "8FM87J9M+CF"
+      },
+      "rating": 3.6,
+      "reference": "ChIJfX9aFxLHzhIRrw5dhL2BoSQ",
+      "scope": "GOOGLE",
+      "types": [
+        "supermarket",
+        "hardware_store",
+        "convenience_store",
+        "grocery_or_supermarket",
+        "meal_takeaway",
+        "store",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 136,
+      "vicinity": "Av. Général Leclerc, Saint-Tropez"
+    }
+  ],
+  "status": "OK"
+}

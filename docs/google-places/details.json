@@ -1,0 +1,519 @@
+{
+  "html_attributions": [],
+  "result": {
+    "address_components": [
+      {
+        "long_name": "Saint-Tropez",
+        "short_name": "Saint-Tropez",
+        "types": ["locality", "political"]
+      },
+      {
+        "long_name": "Var",
+        "short_name": "Var",
+        "types": ["administrative_area_level_2", "political"]
+      },
+      {
+        "long_name": "Provence-Alpes-Côte d'Azur",
+        "short_name": "Provence-Alpes-Côte d'Azur",
+        "types": ["administrative_area_level_1", "political"]
+      },
+      {
+        "long_name": "France",
+        "short_name": "FR",
+        "types": ["country", "political"]
+      },
+      {
+        "long_name": "83990",
+        "short_name": "83990",
+        "types": ["postal_code"]
+      }
+    ],
+    "adr_address": "Quartier de la bouillabaisse, <span class=\"postal-code\">83990</span> <span class=\"locality\">Saint-Tropez</span>, <span class=\"country-name\">France</span>",
+    "business_status": "OPERATIONAL",
+    "current_opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "date": "2025-02-23",
+            "day": 0,
+            "time": "1500"
+          },
+          "open": {
+            "date": "2025-02-23",
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "date": "2025-02-23",
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2025-02-23",
+            "day": 0,
+            "time": "1800"
+          }
+        },
+        {
+          "close": {
+            "date": "2025-02-24",
+            "day": 1,
+            "time": "1500"
+          },
+          "open": {
+            "date": "2025-02-24",
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "date": "2025-02-24",
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2025-02-24",
+            "day": 1,
+            "time": "1800"
+          }
+        },
+        {
+          "close": {
+            "date": "2025-02-26",
+            "day": 3,
+            "time": "1500"
+          },
+          "open": {
+            "date": "2025-02-26",
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "date": "2025-02-26",
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2025-02-26",
+            "day": 3,
+            "time": "1800"
+          }
+        },
+        {
+          "close": {
+            "date": "2025-02-27",
+            "day": 4,
+            "time": "1500"
+          },
+          "open": {
+            "date": "2025-02-27",
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "date": "2025-02-27",
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2025-02-27",
+            "day": 4,
+            "time": "1800"
+          }
+        },
+        {
+          "close": {
+            "date": "2025-02-28",
+            "day": 5,
+            "time": "1500"
+          },
+          "open": {
+            "date": "2025-02-28",
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "date": "2025-02-28",
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2025-02-28",
+            "day": 5,
+            "time": "1800"
+          }
+        },
+        {
+          "close": {
+            "date": "2025-03-01",
+            "day": 6,
+            "time": "1500"
+          },
+          "open": {
+            "date": "2025-03-01",
+            "day": 6,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "date": "2025-03-01",
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2025-03-01",
+            "day": 6,
+            "time": "1800"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 11:00 AM – 3:00 PM, 6:00 – 10:00 PM",
+        "Tuesday: Closed",
+        "Wednesday: 11:00 AM – 3:00 PM, 6:00 – 10:00 PM",
+        "Thursday: 11:00 AM – 3:00 PM, 6:00 – 10:00 PM",
+        "Friday: 10:00 AM – 3:00 PM, 6:00 – 10:00 PM",
+        "Saturday: 11:00 AM – 3:00 PM, 6:00 – 10:00 PM",
+        "Sunday: 11:00 AM – 3:00 PM, 6:00 – 10:00 PM"
+      ]
+    },
+    "delivery": true,
+    "dine_in": true,
+    "formatted_address": "Quartier de la bouillabaisse, 83990 Saint-Tropez, France",
+    "formatted_phone_number": "04 94 45 20 44",
+    "geometry": {
+      "location": {
+        "lat": 43.26507650000001,
+        "lng": 6.625064800000001
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 43.26644758029152,
+          "lng": 6.626380730291503
+        },
+        "southwest": {
+          "lat": 43.26374961970852,
+          "lng": 6.623682769708498
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "international_phone_number": "+33 4 94 45 20 44",
+    "name": "Kyoto Sushi & Thai",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1500"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "day": 0,
+            "time": "1800"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1500"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "day": 1,
+            "time": "1800"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1500"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "day": 3,
+            "time": "1800"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1500"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "day": 4,
+            "time": "1800"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1500"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "day": 5,
+            "time": "1800"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1500"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "day": 6,
+            "time": "1800"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 11:00 AM – 3:00 PM, 6:00 – 10:00 PM",
+        "Tuesday: Closed",
+        "Wednesday: 11:00 AM – 3:00 PM, 6:00 – 10:00 PM",
+        "Thursday: 11:00 AM – 3:00 PM, 6:00 – 10:00 PM",
+        "Friday: 10:00 AM – 3:00 PM, 6:00 – 10:00 PM",
+        "Saturday: 11:00 AM – 3:00 PM, 6:00 – 10:00 PM",
+        "Sunday: 11:00 AM – 3:00 PM, 6:00 – 10:00 PM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113527065387677613873\">Gelo Petsvona</a>"
+        ],
+        "photo_reference": "AVzFdbmaOvEuzJDkac_c093CtmTtruiQjSgJlSAgh_hxj9oN9spIq3Gq8F0OfWuYGFoct0BwZ1Erri2rCqRavL5Qdrlq4ZmRxgd9R95svblqrreWeFgD0lTdU7XCBu9G8AhSoP9g3MgcrazOZWS02haxStIbks_R6m9QpYhmKPWbhm08IFJ8yVq5rfOR",
+        "width": 3072
+      },
+      {
+        "height": 635,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116433490977508316472\">Kyoto Sushi &amp; Thai</a>"
+        ],
+        "photo_reference": "AVzFdbkB_UokxGb19MQJZcdppkQNasUMeO6Q5DaORI_RJLY49zIWmc3ioptNRQsUUkcB4suIftCH8zJQyCRt1AHkMkFU6_yc42R-p803Il0CvNk0Ag5IwxLAstHj3lPCVLyJUzeEXHqS0yf14ygHEcVKllXiafok5bqCWy1dJouZYp-p1t2PdICJM_Bp",
+        "width": 960
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103073993310968204735\">Los Notes</a>"
+        ],
+        "photo_reference": "AVzFdbm5W0hUrm-BjJI6R7HdQCeXhTJ5uddbhwbIDVa1c8WAUQHLtYaVTMvhPVsL23VfoAR7Cn2sV6eAjLUHTQWifp5f8GY1qrMmTJ3bH2THfbMvWscameMLd5-akQhvfR2JOYSAim92ehJk6lPEESkZIjVBOas8vGI8tpXgcBcZme1gTKy4SC2yhWJz",
+        "width": 3024
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106696947086796534418\">Dr. Bernd Uhlenhut</a>"
+        ],
+        "photo_reference": "AVzFdbmOiTN0zCK0luAkgiJbC96gGPX9_SsVv9KoGGcXN0wvy8rlO4nBMYdvFPQdG8oYvsg74PVV7JKj4MJj2DRcoc0t5E6mCEtgmQgGM8V8S7lOzv0tx-2K2_C_ajKV5RH8Y-hSXYkKMx4PRrf6CcUubT_c8R0xkVrzZu5-hDJ6R0Gm13_8gGnF8LTE",
+        "width": 4000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112566416351361239986\">Yasmin Abdalla</a>"
+        ],
+        "photo_reference": "AVzFdblbJu-GgnHdU8IMZRXCWoiKI9UB0Kfgp55238yGKzEwbpudi8sXjGAXxobfYIOLKRxqe3CEML2MLb-T9fotXqwgnFB5c5NXED4CQSGV0kiQp8tN5GhP6Kqlox0_lyXxJShJctsJ7V7j5gvj8m7MBPop45Wybf4rtVOVzwV9CsOvSnGmi_oaPQxk",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102710827998374112577\">Amandine Acca</a>"
+        ],
+        "photo_reference": "AVzFdbnTya2yLcbmQXc3BBcoOsT7VS0fvUmUB6go8YjPRLlYjXn1yZVmx2CFdZwhGxuTih24ASrEspqcKbJRlfmKtbGk9hkcQlUoDozn5483lM-SWmR-h3HuXnJRXPlr3iYxDxvfsz-u-8XrIi57hL41V6FLgQpFaaP7yzDJcBRh9sHkLJQY16PAlOln",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106772232925393246259\">OSCAR ET SA GUITARE</a>"
+        ],
+        "photo_reference": "AVzFdbmWA0mA_qo1G7K9U6f7vxfNOClkb7yYz8RLuqirFs6h6neSzDxZ1ThL8vuwMnYVQ5RPr1Ahi8On5vUJNMZk-2_qu0ohruT8haXyvbEDJERNMcclYoBBJWDDRNn1oTGTAcAWrmjAfA7gG2Xxzo3DTtgfZV030fGvMOH4Sze13bvT4JKqef8nW6XY",
+        "width": 4032
+      },
+      {
+        "height": 636,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116433490977508316472\">Kyoto Sushi &amp; Thai</a>"
+        ],
+        "photo_reference": "AVzFdbnw3eYRTGNzWOhVDoWMvlOh-Uwi0yIHPtDOFKPK1MZq1QoNBC5DR-jI4W_T6sexUBRx4kgcXC8GhVMkDjT9iFbNahvaocWfPET7K3W5w3OaJUQWvvvIh61x9A2PSIj-bPq_CgoiodY585XHWhzJYgbg5Rlvqn1riw_RvvGOjM0lqVua-jUB54jL",
+        "width": 960
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106772232925393246259\">OSCAR ET SA GUITARE</a>"
+        ],
+        "photo_reference": "AVzFdbndNyMol-OCb7gIm6H9Sc-Ml0SZ2MsdOg6QztMUr1a1Sq25t25y2_cDEFSdbZnwbykVXtFgb2Nx7476OK9aiKTA0jm4SRarm0BO_t74UbfpES8ocCW01WLcoBNKg8TA_dEDfHzBsVfiNxdAxy2oDJVtTLHdYwN29frfTVS1hrCnIlNmCksabOcr",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111580748922400846310\">Vojta Dombig</a>"
+        ],
+        "photo_reference": "AVzFdbkOIMybrfxD3ULy4cJ4TXisx1cnHJNf9WgI12jz1_pBcrljU-oPv3_LOISvPSJXyAexiHnKXK28jxvXGa8n_cTqQhN4Go10zB4xpE4MSOC2JeSFr23x8qIa7b0AJZMvNkX3AaRXXWhWDJlXEkKLFXGRCkxX9hbaWHGstuPjxvXCjKqSJIWstEmu",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJZTaQ3AjHzhIRJbgJHWUf4eA",
+    "plus_code": {
+      "compound_code": "7J8G+22 Saint-Tropez, France",
+      "global_code": "8FM87J8G+22"
+    },
+    "rating": 4.1,
+    "reference": "ChIJZTaQ3AjHzhIRJbgJHWUf4eA",
+    "reviews": [
+      {
+        "author_name": "Los Notes",
+        "author_url": "https://www.google.com/maps/contrib/103073993310968204735/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWVks4xGvKkDqZ1O7dTrzrk8Jho8fvkRF2vnAMHEDZ0aFYlacMe=s128-c0x00000000-cc-rp-mo-ba6",
+        "rating": 5,
+        "relative_time_description": "a week ago",
+        "text": "In a small plaza with a few other restaurants. I ordered online ahead of time and it took longer than estimated but the staff is very nice and it is worth the wait!  I got a few rolls and a salad and everything was delicious. The quality is very good as well. They have outdoor seating and limited parking also.",
+        "time": 1739207962,
+        "translated": false
+      },
+      {
+        "author_name": "Ben Collins",
+        "author_url": "https://www.google.com/maps/contrib/114886486664509320552/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjU8YiJU8yUVB8cRGNoCC_M4NNoMiO0LqE1oEG70P5ycTld2i9RW=s128-c0x00000000-cc-rp-mo-ba2",
+        "rating": 5,
+        "relative_time_description": "4 months ago",
+        "text": "Very easy to order online, food was ready at the right time and the staff were friendly. The food was super, the little details like a branded napkin and soy sauce included made the takeaway feel luxury!",
+        "time": 1728581154,
+        "translated": false
+      },
+      {
+        "author_name": "Fernando Oliveira",
+        "author_url": "https://www.google.com/maps/contrib/117838538768968925026/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJHhJS_rnHH69TPpoz_Vx9-ws74jM4dCVxzyDPRFuyGzGdpAg=s128-c0x00000000-cc-rp-mo-ba3",
+        "rating": 5,
+        "relative_time_description": "5 months ago",
+        "text": "Great sushi on the way back from Pamppelone beach. You should try the Lobster & Foie Gras sushi.",
+        "time": 1726412522,
+        "translated": false
+      },
+      {
+        "author_name": "Vanessa Goss",
+        "author_url": "https://www.google.com/maps/contrib/117168894174568301809/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocLy3TyUoGTdHVLTwaX9cwMMa7XYtsrxD6VVKmnrEDEZshQYkA=s128-c0x00000000-cc-rp-mo",
+        "rating": 5,
+        "relative_time_description": "a month ago",
+        "text": "Great Japanese and Thai food. I had dinner twice and one lunch. Sushi was predictably fresh and great,  grilled calamari was my favorite together with the  Thai soups. Quick delivery and great presentation/ care on packaging.",
+        "time": 1736003727,
+        "translated": false
+      },
+      {
+        "author_name": "Jad (Jado)",
+        "author_url": "https://www.google.com/maps/contrib/106517772669916873455/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVM1Z8oS0zYl7xLuSRqhBnWlJzGPe0nNe_I32_SAqji3XaooLM=s128-c0x00000000-cc-rp-mo-ba2",
+        "rating": 5,
+        "relative_time_description": "5 months ago",
+        "text": "The lunch special was great deal. Bowl, drink + dessert. Also got a sushi platter to share. Very tasty everything. Highly recommend. Will be back!",
+        "time": 1725794475,
+        "translated": false
+      }
+    ],
+    "serves_beer": true,
+    "serves_lunch": true,
+    "takeout": true,
+    "types": [
+      "meal_takeaway",
+      "meal_delivery",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "url": "https://maps.google.com/?cid=16204267453395089445",
+    "user_ratings_total": 302,
+    "utc_offset": 60,
+    "vicinity": "Quartier de la bouillabaisse, Saint-Tropez",
+    "website": "http://www.kyoto-sushi-tropez.com/"
+  },
+  "status": "OK"
+}
