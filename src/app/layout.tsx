@@ -6,9 +6,9 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Alba AI • AI-Powered Concierge Bot for Boutique Hotels',
+  title: 'AI Agent Concierge for Boutique Hotels • Alba AI',
   description:
-    'Enhance your guests experience with our AI-Powered concierge assistant that can reduce customer support interactions and save time for you and your staff',
+    'Enhance your guests experience with our AI Agent Concierge that can reduce customer support interactions and save time for you and your staff',
 }
 
 export default function RootLayout({

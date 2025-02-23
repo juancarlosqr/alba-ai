@@ -7,11 +7,11 @@ export function Hero() {
         <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
           <div className="sm:max-w-lg">
             <h1 className="text-4xl font-normal tracking-tight text-gray-900 sm:text-5xl">
-              AI-Powered Concierge Bot for Boutique Hotels
+              AI Agent Concierge for Boutique Hotels
             </h1>
             <p className="mt-4 text-xl text-gray-500">
-              Alba AI is an automation companion for boutique hotels, resorts
-              and spas looking to enhance their guests experience
+              Al-Powered concierge for boutique hotels, resorts, and spas
+              looking to enhance their guests experience
             </p>
           </div>
           <div>
